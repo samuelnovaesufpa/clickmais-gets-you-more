@@ -47,6 +47,11 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        clickmais: {
+          orange: "hsl(var(--clickmais-orange))",
+          black: "hsl(var(--clickmais-black))", 
+          white: "hsl(var(--clickmais-white))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
