@@ -10,7 +10,7 @@ const CTA = () => {
             Baixe agora e descubra um novo jeito de consumir
           </h2>
           <p className="text-xl text-white/80 mb-8 max-w-2xl mx-auto">
-            Simples, seguro e vantajoso. Junte-se a mais de 100 mil brasileiros que já estão economizando com o ClickMais.
+            Simples, seguro e vantajoso. Junte-se a mais de 100 mil brasileiros que já estão economizando com o Click+.
           </p>
 
           {/* CTAs */}

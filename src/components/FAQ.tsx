@@ -9,11 +9,11 @@ const FAQ = () => {
   const faqs = [
     {
       question: "O app é gratuito?",
-      answer: "Sim, o ClickMais é 100% gratuito para download e uso. Não há taxas escondidas, mensalidades ou custos de manutenção."
+      answer: "Sim, o Click+ é 100% gratuito para download e uso. Não há taxas escondidas, mensalidades ou custos de manutenção."
     },
     {
       question: "Quanto tempo demora para receber o cashback?",
-      answer: "O cashback aparece automaticamente na sua carteira logo após a confirmação da compra pela loja parceira, geralmente em poucos minutos."
+      answer: "O cashback aparece automaticamente na sua carteira logo após a confirmação da compra pela loja parceira, geralmente em poucos segundos."
     },
     {
       question: "Onde posso usar o cartão físico/virtual?",
@@ -29,7 +29,7 @@ const FAQ = () => {
     },
     {
       question: "Quais lojas oferecem cashback?",
-      answer: "Temos milhares de lojas parceiras em todo o Brasil. A lista completa está disponível dentro do app e é atualizada constantemente."
+      answer: "Estamos em fase de expansão, ative sempre seu localizador para buscar as lojas parceiras na cidade e no estado em que você estiver."
     },
     {
       question: "Posso pagar qualquer boleto?",
@@ -37,7 +37,7 @@ const FAQ = () => {
     },
     {
       question: "Como funciona a indicação de amigos?",
-      answer: "Convide amigos pelo app usando seu código de indicação. Você recebe bônus quando eles se cadastram e começam a usar o ClickMais."
+      answer: "Convide amigos para o app usando seu código de indicação. Você recebe comissões sempre que eles fizerem compras pelo Click+."
     },
     {
       question: "O app tem suporte humano?",
@@ -45,7 +45,7 @@ const FAQ = () => {
     },
     {
       question: "Meus dados estão seguros?",
-      answer: "Absolutamente. O ClickMais usa criptografia de nível bancário e segue todas as práticas de segurança da indústria financeira, incluindo compliance com a LGPD."
+      answer: "Absolutamente. O Click+ usa criptografia de nível bancário e segue todas as práticas de segurança da indústria financeira, incluindo compliance com a LGPD."
     }
   ];
 
@@ -57,7 +57,7 @@ const FAQ = () => {
             Perguntas <span className="text-primary">Frequentes</span>
           </h2>
           <p className="text-xl text-muted-foreground">
-            Tire suas dúvidas sobre o ClickMais
+            Tire suas dúvidas sobre o Click+
           </p>
         </div>
 

@@ -27,7 +27,7 @@ const Header = () => {
               className="h-8 w-8 lg:h-10 lg:w-10 rounded-lg"
             />
             <span className="text-xl lg:text-2xl font-bold text-foreground">
-              ClickMais
+              Click+
             </span>
           </div>
 
@@ -47,7 +47,8 @@ const Header = () => {
           {/* Desktop CTA */}
           <div className="hidden lg:flex items-center space-x-4">
             <Button variant="outline" size="sm">
-              Baixar App
+              <Download className="w-4 h-4 mr-2" />
+              App Store
             </Button>
             <Button size="sm" className="gradient-orange">
               <Download className="w-4 h-4 mr-2" />
@@ -80,7 +81,8 @@ const Header = () => {
               ))}
               <div className="flex flex-col space-y-2 pt-4">
                 <Button variant="outline" size="sm">
-                  Baixar App
+                  <Download className="w-4 h-4 mr-2" />
+                  App Store
                 </Button>
                 <Button size="sm" className="gradient-orange">
                   <Download className="w-4 h-4 mr-2" />

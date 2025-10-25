@@ -1,26 +1,30 @@
 import { Button } from "@/components/ui/button";
-import { Download, Play } from "lucide-react";
+import { Download } from "lucide-react";
 import heroPhone from "@/assets/hero-phone.jpg";
 
 const Hero = () => {
   return (
-    <section id="inicio" className="min-h-screen flex items-center justify-center section-padding bg-gradient-to-br from-background via-background to-muted/30">
-      <div className="max-w-7xl mx-auto container-padding">
+    <section id="inicio" className="min-h-screen flex items-center justify-center section-padding bg-gradient-to-br from-primary/5 via-orange-500/5 to-background relative overflow-hidden">
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,rgba(254,156,2,0.08),transparent_50%)]"></div>
+      <div className="max-w-7xl mx-auto container-padding relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
           <div className="text-center lg:text-left animate-fade-up">
             <h1 className="text-hero mb-6 leading-tight">
               Seja bem-vindo ao{" "}
               <span className="bg-gradient-to-r from-primary to-orange-500 bg-clip-text text-transparent">
-                ClickMais
+                Click+
               </span>
             </h1>
-            <p className="text-subsection mb-4 text-muted-foreground max-w-2xl">
-              onde seu consumo retorna pra você
+            <p className="text-subsection mb-4 font-semibold">
+              O super app mais inovador do Brasil.
             </p>
-            <p className="text-lg mb-8 text-muted-foreground max-w-2xl">
-              Cashback real, conta digital gratuita, marketplace e muito mais — 
-              tudo num só app seguro e fácil de usar.
+            <p className="text-lg mb-4 text-muted-foreground max-w-2xl">
+              Cashback instantâneo e comércio local digitalizado.
+            </p>
+            <p className="text-base mb-6 text-muted-foreground max-w-2xl">
+              5 mercados em um só lugar: E-commerce, Marketplace, Cashback, Publicidade e Open Banking.
+              Economize tempo e dinheiro. O poder do consumo inteligente. Na palma das suas mãos.
             </p>
             
             {/* CTAs */}
@@ -34,24 +38,20 @@ const Hero = () => {
                 size="lg" 
                 className="text-lg px-8 py-6 hover-lift"
               >
-                <Play className="w-5 h-5 mr-2" />
-                Saiba como funciona
+                <Download className="w-5 h-5 mr-2" />
+                Baixe na App Store
               </Button>
             </div>
             
             {/* Stats */}
-            <div className="grid grid-cols-3 gap-6 mt-12 pt-8 border-t border-border">
-              <div className="text-center lg:text-left">
+            <div className="grid grid-cols-2 gap-6 mt-12">
+              <div className="text-center lg:text-left bg-clickmais-black/90 p-4 rounded-xl">
                 <div className="text-2xl font-bold text-primary">100%</div>
-                <div className="text-sm text-muted-foreground">Gratuito</div>
+                <div className="text-sm text-white">Gratuito</div>
               </div>
-              <div className="text-center lg:text-left">
+              <div className="text-center lg:text-left bg-clickmais-black/90 p-4 rounded-xl">
                 <div className="text-2xl font-bold text-primary">24h</div>
-                <div className="text-sm text-muted-foreground">Suporte</div>
-              </div>
-              <div className="text-center lg:text-left">
-                <div className="text-2xl font-bold text-primary">0</div>
-                <div className="text-sm text-muted-foreground">Anuidade</div>
+                <div className="text-sm text-white">Suporte</div>
               </div>
             </div>
           </div>

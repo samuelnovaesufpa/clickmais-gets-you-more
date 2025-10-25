@@ -40,7 +40,7 @@ const Footer = () => {
                 <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
                   <span className="text-xl font-bold text-white">C+</span>
                 </div>
-                <span className="text-2xl font-bold">ClickMais</span>
+                <span className="text-2xl font-bold">Click+</span>
               </div>
               
               <p className="text-white/70 mb-6 leading-relaxed">
@@ -52,15 +52,15 @@ const Footer = () => {
               <div className="space-y-3">
                 <div className="flex items-center space-x-3 text-sm text-white/70">
                   <Mail className="w-4 h-4" />
-                  <span>contato@clickmais.com.br</span>
+                  <span>contato@clickmais.app</span>
                 </div>
                 <div className="flex items-center space-x-3 text-sm text-white/70">
                   <Phone className="w-4 h-4" />
-                  <span>0800 123 4567</span>
+                  <span>(11) 99999-9999</span>
                 </div>
                 <div className="flex items-center space-x-3 text-sm text-white/70">
                   <MapPin className="w-4 h-4" />
-                  <span>São Paulo, SP - Brasil</span>
+                  <span>Brasil</span>
                 </div>
               </div>
             </div>
@@ -91,7 +91,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             {/* Copyright */}
             <div className="text-white/70 text-sm">
-              © 2024 ClickMais. Todos os direitos reservados.
+              © 2024 Click+. Todos os direitos reservados.
             </div>
 
             {/* Social Links */}
@@ -105,11 +105,6 @@ const Footer = () => {
               <a href="#" className="p-2 text-white/70 hover:text-white transition-colors duration-200">
                 <Twitter className="w-5 h-5" />
               </a>
-            </div>
-
-            {/* Legal */}
-            <div className="text-white/70 text-sm">
-              CNPJ: 12.345.678/0001-90
             </div>
           </div>
         </div>

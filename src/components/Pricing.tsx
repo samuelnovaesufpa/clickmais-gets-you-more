@@ -9,7 +9,7 @@ const Pricing = () => {
     "Cashback em lojas físicas",
     "Marketplace com ofertas exclusivas",
     "Pagamento de boletos sem taxa",
-    "Indicação de amigos remunerada",
+    "Ganhe comissões indicando amigos",
     "Suporte 24h por chat e telefone",
     "Criptografia de nível bancário",
     "App para Android e iOS"
@@ -38,8 +38,8 @@ const Pricing = () => {
             </div>
             
             <div className="bg-card border-2 border-primary rounded-2xl p-8 hover-lift">
-              <div className="text-center mb-8">
-                <h3 className="text-2xl font-bold mb-2">ClickMais Gratuito</h3>
+            <div className="text-center mb-8">
+                <h3 className="text-2xl font-bold mb-2">Click+ Gratuito</h3>
                 <div className="text-5xl font-bold text-primary mb-2">R$ 0</div>
                 <div className="text-muted-foreground">Para sempre</div>
               </div>

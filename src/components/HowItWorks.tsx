@@ -1,31 +1,31 @@
-import { Download, Store, Wallet, CreditCard, Users } from "lucide-react";
+import { Download, MapPin, Wallet, CreditCard, Users } from "lucide-react";
 
 const HowItWorks = () => {
   const steps = [
     {
       icon: Download,
-      title: "Baixe o app e crie sua conta",
-      description: "Download gratuito na Google Play. Cadastro rápido e seguro em poucos minutos."
+      title: "Baixe o App e crie sua conta",
+      description: "Download gratuito na Google play e Apple store. Cadastro rápido e seguro em poucos minutos."
     },
     {
-      icon: Store,
-      title: "Ative cashback em lojas parceiras",
-      description: "Escolha entre milhares de lojas físicas ou compre no nosso marketplace."
+      icon: MapPin,
+      title: "Ative Cashback em lojas parceiras",
+      description: "Ative seu localizador e veja as lojas parceiras na sua cidade. Escolha entre os milhares de produtos disponíveis em nosso marketplace e comece a ganhar dinheiro."
     },
     {
       icon: Wallet,
       title: "Receba ganhos instantâneos",
-      description: "Cashback aparece automaticamente na sua carteira após confirmação da compra."
+      description: "Cashback aparece automaticamente. Compartilhe e ganhe automaticamente. Comissões automáticas por compras de indicados."
     },
     {
       icon: CreditCard,
-      title: "Use cartão, PIX ou pagamentos",
-      description: "Acesse sua conta digital, faça transferências e pague boletos."
+      title: "Use o Pix, Click+",
+      description: "Use o Pix para suas compras, pagando pelo Click+ ou qualquer outro banco, e ganhe cashback instantâneo normalmente."
     },
     {
       icon: Users,
       title: "Indique amigos e multiplique",
-      description: "Convide pessoas e receba bônus por cada novo usuário ativo."
+      description: "Convide pessoas e ganhe comissões automáticas sempre que seus indicados fizerem compras em nossos parceiros."
     }
   ];
 
@@ -37,7 +37,7 @@ const HowItWorks = () => {
             Como <span className="text-primary">Funciona</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Cinco passos simples para começar a ganhar dinheiro com o ClickMais
+            Cinco passos simples para começar a ganhar dinheiro no Click+
           </p>
         </div>
 
