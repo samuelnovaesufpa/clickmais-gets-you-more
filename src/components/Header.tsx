@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Download } from "lucide-react";
-import clickmaisLogo from "@/assets/clickmais-logo.jpg";
+import clickmaisLogo from "@/assets/clickmais-logo.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -46,13 +46,11 @@ const Header = () => {
 
           {/* Desktop CTA */}
           <div className="hidden lg:flex items-center space-x-4">
-            <Button variant="outline" size="sm">
-              <Download className="w-4 h-4 mr-2" />
-              App Store
-            </Button>
-            <Button size="sm" className="gradient-orange">
-              <Download className="w-4 h-4 mr-2" />
-              Google Play
+            <Button size="sm" className="gradient-orange" asChild>
+              <a href="https://play.google.com/store/apps/details?id=br.com.clickmais" target="_blank" rel="noopener noreferrer">
+                <Download className="w-4 h-4 mr-2" />
+                Google Play
+              </a>
             </Button>
           </div>
 
@@ -80,13 +78,11 @@ const Header = () => {
                 </a>
               ))}
               <div className="flex flex-col space-y-2 pt-4">
-                <Button variant="outline" size="sm">
-                  <Download className="w-4 h-4 mr-2" />
-                  App Store
-                </Button>
-                <Button size="sm" className="gradient-orange">
-                  <Download className="w-4 h-4 mr-2" />
-                  Google Play
+                <Button size="sm" className="gradient-orange" asChild>
+                  <a href="https://play.google.com/store/apps/details?id=br.com.clickmais" target="_blank" rel="noopener noreferrer">
+                    <Download className="w-4 h-4 mr-2" />
+                    Google Play
+                  </a>
                 </Button>
               </div>
             </nav>

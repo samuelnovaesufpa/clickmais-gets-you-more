@@ -29,17 +29,11 @@ const Hero = () => {
             
             {/* CTAs */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button size="lg" className="gradient-orange hover-glow text-lg px-8 py-6">
-                <Download className="w-5 h-5 mr-2" />
-                Baixe no Google Play
-              </Button>
-              <Button 
-                variant="outline" 
-                size="lg" 
-                className="text-lg px-8 py-6 hover-lift"
-              >
-                <Download className="w-5 h-5 mr-2" />
-                Baixe na App Store
+              <Button size="lg" className="gradient-orange hover-glow text-lg px-8 py-6" asChild>
+                <a href="https://play.google.com/store/apps/details?id=br.com.clickmais" target="_blank" rel="noopener noreferrer">
+                  <Download className="w-5 h-5 mr-2" />
+                  Baixe no Google Play
+                </a>
               </Button>
             </div>
             
